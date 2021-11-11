@@ -1,0 +1,39 @@
+
+
+
+/* annoucement */
+.annoucemnt {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 1.4rem;
+    font-weight: 600;
+    height: 50px;
+}
+
+.annoucemnt-info {
+    width: 90%;;
+}
+
+.annoucemnt-info > p {
+    margin-right: 20px;
+}
+.annoucemnt-info > button {
+    border: 2px solid var(--white-color);
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-weight: bold;
+}
+
+.anoucement__cancel {
+    width: 20px;
+    color: var(--white-color);
+    
+    z-index: 2;
+}
+
